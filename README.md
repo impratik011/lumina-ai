@@ -157,7 +157,9 @@ lumina-ai/
 # 👨‍💻 Developer's
 
 **Pratik Pandey(Leader)**
+
 **Aaditee Ladi**
+
 **Arun Chauhan**
 
 AICTE | IBM SkillsBuild Gen AI & Cloud Computing Internship
