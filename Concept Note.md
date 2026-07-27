@@ -6,6 +6,8 @@
 
 **Project Team:**
 Pratik Pandey (Leader)
+Aaditee Ladi
+Arun Chauhan
 
 ---
 
