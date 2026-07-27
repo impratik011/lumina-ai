@@ -1,0 +1,20 @@
+.env
+*.env
+!.env.example
+.git
+.gitignore
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.db
+*.sqlite
+*.sqlite3
+.vscode/
+.idea/
+*.log
+README.md
+PROJECT_REPORT.md
+Concept Note.md
+Mentora_AI_Presentation.pdf
+Mentora_Canvas.png

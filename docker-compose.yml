@@ -1,0 +1,25 @@
+services:
+  lumina-ai:
+    build: .
+    container_name: lumina-ai
+    ports:
+      - "10000:10000"
+    environment:
+      - PORT=10000
+      - ALLOWED_ORIGINS=${ALLOWED_ORIGINS:-*}
+      - LUMINA_DB=/data/lumina.db
+    env_file:
+      - .env
+    volumes:
+      # Persist the SQLite mentor-dashboard database across container restarts.
+      - lumina_data:/data
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:10000/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+    restart: unless-stopped
+
+volumes:
+  lumina_data:

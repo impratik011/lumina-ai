@@ -1,0 +1,17 @@
+version: 1.0
+runtime: python311
+build:
+  commands:
+    build:
+      - pip install -r requirements.txt
+run:
+  runtime-version: 3.11.9
+  command: uvicorn app:app --host 0.0.0.0 --port 8080
+  network:
+    port: 8080
+  env:
+    # GROQ_API_KEY should NOT be set here — configure it as a secret/plain-text
+    # environment variable in the App Runner console (or AWS Secrets Manager)
+    # instead, so it never ends up committed to source control.
+    - name: ALLOWED_ORIGINS
+      value: "*"
