@@ -154,11 +154,11 @@ lumina-ai/
 
 ---
 
-# 👨‍💻 Developer
+# 👨‍💻 Developer's
 
-**Pratik Pandey**
-
-B.Sc. Computer Science Student
+**Pratik Pandey(Leader)**
+**Aaditee Ladi**
+**Arun Chauhan**
 
 AICTE | IBM SkillsBuild Gen AI & Cloud Computing Internship
 
