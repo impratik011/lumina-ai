@@ -15,7 +15,7 @@
 
 ### 🌐 Live Demo
 
-**Render Deployment:** https://your-app-name.onrender.com
+**Render Deployment:** https://lumina-ai-76mm.onrender.com/
 
 </div>
 
